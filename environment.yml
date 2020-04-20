@@ -1,0 +1,19 @@
+name: fluent-python
+channels:
+  - nodefaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - anaconda::flake8
+  # - anaconda::nb_conda
+  # - anaconda::notebook
+  # - conda-forge::jupyter_contrib_nbextensions
+  # - conda-forge::nb_black
+  - anaconda::pip
+  - anaconda::pylint
+  - anaconda::pytest
+  - anaconda::python=3
+  - conda-forge::black
+  - nodejs
+  - pip
+  
